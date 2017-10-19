@@ -27,9 +27,10 @@ def main():
 	l5 = Circle(Point(500, 500),40) # set endpoints
 	l5.setFill("#FFF600")
 	l5.draw(win)
-
-
-
+	
+	label = Text(Point(250, 180), 'Im a self aware door')
+	label.draw(win)
+	
 	
 	message = Text(Point(win.getWidth()/2, 20), 'click anywhere to quit.')
 	message.draw(win)
