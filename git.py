@@ -31,6 +31,11 @@ def main():
 	label = Text(Point(250, 180), 'Im a self aware door')
 	label.draw(win)
 	
+	window = GraphWin("nick cage", 800, 600)
+	myImage = Image(Point(250,180), "/home/keegy/html/IMG/download.png")
+	myImage.draw(window)
+	window.mainloop()
+	
 	
 	message = Text(Point(win.getWidth()/2, 20), 'click anywhere to quit.')
 	message.draw(win)
